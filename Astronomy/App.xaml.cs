@@ -10,7 +10,7 @@ namespace Astronomy
         {
             InitializeComponent();
 
-            MainPage = new Astronomy.MainPage();
+            MainPage = new NavigationPage(new Astronomy.MainPage());
         }
 
         protected override void OnStart()
